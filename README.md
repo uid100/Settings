@@ -20,4 +20,53 @@ The example is built on .NET 3.1, other targets should also work. Your actual mi
 - Right-click in solution explorer to access properties
 - set __Advanced>Copy to Output Directory:  Copy if newer__
 
+<pre>
+{
+  "ice cream": {
+    "flavor": {
+      "best_seller": "chocolate"
+    },
+    "topping": "none"
+  },
+  "pizza": {
+    "sizes": [
+      "large",
+      "larger",
+      "you are kidding me!"
+    ]
+  },
+  "MenuSpecials": [
+    {
+      "Number": 1,
+      "Feature": "double-double",
+      "Side": "fries",
+      "Beverage": "coke"
+    },
+    {
+      "Number": 2,
+      "Feature": "ch.burger",
+      "Side": "fries",
+      "Beverage": "coke"
+    },
+    {
+      "Number": 3,
+      "Feature": "burger",
+      "Side": "fries",
+      "Beverage": "coke"
+    }
+  ],
+  "Location":
+  {
+    "address": "123 Main St.",
+    "city": "Oakdale",
+    "state": "TX"
+  }
+}
 
+</pre>
+
+## 4. User Secrets
+- "hide" secrets
+     - create new GUID (UUID) 
+     - create directory in %APPDATA%\Microsoft\UserSecrets\[GUID]\
+     - add secrets.json file
