@@ -7,8 +7,9 @@ and other static key value pairs to configuration files.
 The appsettings.json and Configuration class are scaffolded into most .NET Core web applications. This example is intended to 
 demonstrate and document the same capability in a minimal console application.
 
-More detailed information here!  https://ballardsoftware.com/adding-appsettings-json-configuration-to-a-net-core-console-application/
+Read configuration elements or bind to model classes, including across multiple sources. More detailed information here:
 
+_Recommended reading!_  https://ballardsoftware.com/adding-appsettings-json-configuration-to-a-net-core-console-application/
 
 
 ## 1. Start with a simple console application.
