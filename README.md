@@ -13,7 +13,8 @@ The example is built on .NET 3.1, other targets should also work. Your actual mi
 
 ## 2. Add dependency (Nuget package manager) for 
 - Microsoft.Extensions.Configuration  (v3.1.3 is current as of this document)
-- Microsoft.Extensions.Configuration.Json  (v3.1.3 is current as of this document)
+- Microsoft.Extensions.Configuration.Json  (v3.1.3)
+- Microsoft.Extensions.Configuration.Binder (v3.1.3) to bind getsection to class model
 
 ## 3. Add appsettings.json
 - Right-click in solution explorer to access properties
