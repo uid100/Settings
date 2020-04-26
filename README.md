@@ -76,7 +76,13 @@ The example is built on .NET 3.1, other targets should also work. Your actual mi
      - add secrets.json file
 - add the GUID to .csproj file <PropertyGroup><UserSecretsId> and reload project!
 
+<pre>
+  <PropertyGroup>
+      <UserSecretsId>af2e3160-fe75-4ca9-97f8-89d99eb43a4d</UserSecretsId>
+  </PropertyGroup>
+</pre>
 
+code
 <pre>
 namespace Settings
 {
