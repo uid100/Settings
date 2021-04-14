@@ -1,3 +1,5 @@
+![icon](https://raw.githubusercontent.com/uid100/Settings/master/images/settings.png)
+---
 # Settings
 Read user configuration settings from file
 
